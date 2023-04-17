@@ -24,7 +24,20 @@ p {
     text-align: center;
 }
 /* exercise divs */
+.flex-div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
 
+.leg-compound{
+    height: 50%;
+    width: 50%;
+    overflow: hidden;
+    display: flex, none;
+    justify-content: center;
+    margin:auto;
+}
 
 /* footer */
 footer {
