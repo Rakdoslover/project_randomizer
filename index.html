@@ -1,17 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+
+    <title>The Exercise Randomizer</title>
 </head>
+
 <body>
+    <!--This is the header-->
     <header>
-        <h1>This is the header</h1>
+        <h1>This is the header<i class="fa-sharp fa-regular fa-dumbbell"></i></h1>
     </header>
+    <hr>
+    <hr>
+    <div>
+        <p>
+            Welcome to the exercise randomizer!
+        </p>
+        <p>
+            With the help of the randomizer you'll get a random workout session depending on what type of workout your
+            looking for.
+        </p>
+    </div>
+    <!--exercises below-->
+    <form action="#">
+        <label for="muscle-groups">Choose your type of session:</label>
+        <select name="muscle-groups" id="muscle-groups">
+            <option value="legs">Leg Exercises</option>
+            <option value="abs">Abdominal Exercises</option>
+            <option value="push">Push Exercises</option>
+            <option value="pull">Pull Exercises</option>
+            <option value="arms">Arm Exercises</option>
+            <option value="pulse">Conditioning</option>
+            <button></button>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+    <div>
+        exercise 1
+    </div>
+    <div>
+        exercise 2
+    </div>
+    <div>
+        exercise 3
+    </div>
+    <div>
+        exercise 4
+    </div>
+    <div>
+        exercise 5
+    </div>
+
+    <!--Here's a footer-->
+    <footer>
+        <h3>Contact</h3>
+        <ul class="contacts">
+            <li>
+                coachingbyoscar@gmail.com
+            </li>
+            <li>
+                <a href="https://www.instagram.com/coachingbyoscar/" target="_blank" rel="noopener"
+                    aria-label="Visit my Instagram (opens a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <!--Javascript link down below-->
     <script src="assets/js/script.js"></script>
+    <!--Font Awesome script-->
+    <script src="https://kit.fontawesome.com/b271903605.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

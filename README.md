@@ -8,3 +8,7 @@ The plan is to make a lot of divs connected to a specific class which on the ind
 
 ##Screenshots of the process
 
+The sites basics are getting into formation, i've decide put a a light grey background as the backdrop and I think i will implement some kind of set/rep/rest table to with the sessions.
+![screenshot of the basic site](assets/images/screenshot-1.jpg)
+
+##

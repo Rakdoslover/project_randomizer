@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+/* basic css for body */
+
+body {
+    background: lightgrey;
+    font-family: Lato, sans-serif;
+    letter-spacing: 3px;
+}
+
+h1, h2, h3 {
+    font-family: Poppins, sans-serif;
+    font-size: xx-large;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+/* text */
+p {
+    letter-spacing: 3px;
+    text-align: center;
+}
+/* exercise divs */
+
+
+/* footer */
+footer {
+    height: 125px;
+    background: fixed lightgray;
+    flex: content;
+}
+
+footer h3 {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.contacts {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts > li {
+    color: black;
+    list-style-type: none;
+    font-size: 120%;
+}
+
+.contacts i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
+}
