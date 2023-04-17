@@ -25,9 +25,10 @@ p {
 }
 /* exercise divs */
 .flex-div {
-    display: flex;
+    display: hidden;
     justify-content: space-around;
     flex-direction: row;
+    
 }
 
 .leg-compound{
