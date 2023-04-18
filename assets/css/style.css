@@ -17,6 +17,11 @@ h1, h2, h3 {
     text-align: center;
 }
 
+/* form styling */
+form {
+    display: flex;
+    justify-content: center;
+}
 
 /* text */
 p {
@@ -25,19 +30,24 @@ p {
 }
 /* exercise divs */
 .flex-div {
-    display: hidden;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
-    
 }
 
 .leg-compound{
-    height: 50%;
-    width: 50%;
+    height: 15%;
+    width: 15%;
     overflow: hidden;
-    display: flex, none;
+    display: flex;
     justify-content: center;
     margin:auto;
+}
+
+#squat{
+    display: none;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 /* footer */
