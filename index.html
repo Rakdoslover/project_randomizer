@@ -32,20 +32,51 @@
         </p>
     </div>
     <!--exercises below-->
-    <div class="flex-box">
-        
+    <div class="section-holder">
+        <div id="squat" class="flex-div">
+            <h2>Squat</h2>
+            <img src="assets/images/full-squat-side-view.gif" alt="Squat movement" width="100%">
+        </div>
+        <div id="deadlift" class="flex-div">
+            <h2>Deadlift</h2>
+            <img src="assets/images/barbell-deadlift-movement.gif" alt="Deadlift movement" width="100%">
+        </div>
+        <div class="createbtn">Create Leg Exercises<br>
+            <button id="create-legs" onclick="createLegs()">Create Leg exercises</button>
+        </div>
+        <div class="resetbtn">Reset Leg Exercises<br>
+            <button id="reset-legs" onclick="resetLegs()">Reset</button>
+        </div>
     </div>
-    <div id="squat" >
-        <h2>Squat</h2>
-        <img src="assets/images/full-squat-side-view.gif" alt="Squat movement" width="100%">
+    <div class="section-holder">
+        <div id="toestobar" class="flex-div">
+            <h2>Toes to bar</h2>
+            <img src="assets/images/toes-to-bar.gif" alt="Toes to bar movement" width="100%">
+        </div>
+        <div id="plank-weighted" class="flex-div">
+            <h2>Weighted PLank</h2>
+            <img src="assets/images/weighted-plank.gif" alt="A weighted plank" width="100%">
+        </div>
+        <div class="createbtn">Create Core Exercises<br>
+            <button id="create-core" onclick="createCore()">Create Ab exercises</button>
+        </div>
+        <div class="resetbtn">Reset Core Exercises<br>
+            <button id="reset-core" onclick="resetCore()">Reset</button>
+        </div>
     </div>
-    <div class="createbtn">Create Leg Exercises<br>
-        <button id="create-element" onclick="createLegs()">Create All</button>
+</div>
+<div class="section-holder">
+    <div id="bench-press" class="flex-div">
+        <h2>Bench Press</h2>
+        <img src="assets/images/barbell-bench-press.gif" alt="Bench Press movement" width="100%">
     </div>
-    <div class="resetbtn">Remove<br>
-        <button id="reset-element" onclick="resetElement()">Reset All</button>
+    <div class="createbtn">Create Press Exercises<br>
+        <button id="create-press" onclick="createPress()">Create Press exercises</button>
     </div>
-
+    <div class="resetbtn">Reset Press Exercises<br>
+        <button id="reset-press" onclick="resetPress()">Reset</button>
+    </div>
+</div>
     <!--Here's a footer-->
     <footer>
         <h3>Contact</h3>

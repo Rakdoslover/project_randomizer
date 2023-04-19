@@ -1,10 +1,43 @@
+// Targets the id:s for boxes
+let squatEx = document.getElementById("squat");
+let deadEx = document.getElementById("deadlift");
+let ttbEx = document.getElementById("toestobar");
+let benchPressEx = document.getElementById("bench-press");
+let plankEx = document.getElementById("plank-weighted");
+
+
 /**
- * This will be the main function for the submit button.
- * It's suppossed to generate 3 GIFs (1 compound and 2 specific movements).
+ * Function to remove all boxes, not decided yet if 
+ * it's gonna be one for each instance or one that controls everything.
  */
-document.getElementsByClassName("submit", function() {
-    var showSession = document.getElementById("squat");
-    if (showSession.style.display === "none") {
-        showSession.style.display = "flex";
-    }
-})
+function resetLegs(event) {
+    squatEx.style.display = "none";
+    deadEx.style.display = "none";
+}
+
+function resetCore(event) {
+    ttbEx.style.display = "none";
+    plankEx.style.display = "none";
+}
+
+function resetPress(event) {
+    benchPressEx.style.display = "none";
+}
+
+// Funtion for creating Leg exercises
+document.getElementById("create-legs").onclick = function createLegs() {
+    document.getElementById("squat").style.display = "inline-block";
+    document.getElementById("deadlift").style.display = "inline-block";
+}
+
+// Function for creating Ab exercises
+document.getElementById("create-core").onclick = function createCore() {
+    document.getElementById("toestobar").style.display = "inline-block";
+    document.getElementById("plank-weighted").style.display = "inline-block";
+
+}
+
+// Function for creating Press exercises
+document.getElementById("create-press").onclick = function createPress() {
+    document.getElementById("bench-press").style.display = "inline-block";
+}
