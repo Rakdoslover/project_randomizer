@@ -8,7 +8,9 @@ body {
     letter-spacing: 3px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Poppins, sans-serif;
     font-size: xx-large;
     color: black;
@@ -18,16 +20,13 @@ h1, h2, h3 {
 }
 
 /* form styling */
-form {
-    display: flex;
-    justify-content: center;
-}
 
 /* text */
 p {
     letter-spacing: 3px;
     text-align: center;
 }
+
 /* exercise divs */
 .flex-div {
     display: flex;
@@ -35,19 +34,43 @@ p {
     flex-direction: row;
 }
 
-.leg-compound{
+
+.leg-compound {
     height: 15%;
     width: 15%;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    margin:auto;
+    margin: auto;
 }
 
-#squat{
+#squat {
     display: none;
     justify-content: space-around;
     flex-direction: row;
+}
+
+/* buttons */
+.createbtn {
+    text-align: center;
+    width: 120px;
+    border: 1px solid gray;
+    margin: 4px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.resetbtn{
+    text-align: center;
+    width: 120px;
+    border: 1px solid gray;
+    margin: 4px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 /* footer */
@@ -69,7 +92,7 @@ footer h3 {
     justify-content: space-evenly;
 }
 
-.contacts > li {
+.contacts>li {
     color: black;
     list-style-type: none;
     font-size: 120%;

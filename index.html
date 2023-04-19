@@ -33,22 +33,18 @@
     </div>
     <!--exercises below-->
     <div class="flex-box">
-        <label for="muscle-groups">Choose your type of session:</label>
-        <select name="muscle-groups" id="muscle-groups">
-            <option value="legs">Leg Exercises</option>
-            <option value="abs">Abdominal Exercises</option>
-            <option value="push">Push Exercises</option>
-            <option value="pull">Pull Exercises</option>
-            <option value="arms">Arm Exercises</option>
-            <option value="pulse">Conditioning</option>
-        </select>
-        <input type="submit" value="Submit" class="submit">
+        
     </div>
-    <div id="squat">
+    <div id="squat" >
         <h2>Squat</h2>
-        <img class="leg-compound" src="assets/images/full-squat-side-view.gif" alt="Squat movement">
+        <img src="assets/images/full-squat-side-view.gif" alt="Squat movement" width="100%">
     </div>
-
+    <div class="createbtn">Create Leg Exercises<br>
+        <button id="create-element" onclick="createLegs()">Create All</button>
+    </div>
+    <div class="resetbtn">Remove<br>
+        <button id="reset-element" onclick="resetElement()">Reset All</button>
+    </div>
 
     <!--Here's a footer-->
     <footer>
