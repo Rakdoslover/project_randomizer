@@ -21,6 +21,10 @@ var togglePress = document.getElementById("create-remove-press");
 togglePress = false;
 var togglePull = document.getElementById("create-remove-pull");
 togglePull = false;
+var toggleCore = document.getElementById("create-remove-core");
+toggleCore = false;
+var toggleCond = document.getElementById("create-remove-cond");
+toggleCond = false;
 
 /**
  * The functions for the toggle.
@@ -77,4 +81,40 @@ function showHidePull() {
         document.getElementById('cable-y-raise').style.display = "none";
     }
     togglePull = !togglePull;
+};
+
+// Function core
+function showHideCore() {
+    if (toggleCore === true) {
+        document.getElementById('toestobar').style.display = "inline-block";
+        document.getElementById('plank-weighted').style.display = "inline-block";
+        document.getElementById('cable-twist').style.display = "inline-block";
+        document.getElementById('hyperex').style.display = "inline-block";
+        document.getElementById('side-bend').style.display = "inline-block";
+    } else {
+        document.getElementById('toestobar').style.display = "none";
+        document.getElementById('plank-weighted').style.display = "none";
+        document.getElementById('cable-twist').style.display = "none";
+        document.getElementById('hyperex').style.display = "none";
+        document.getElementById('side-bend').style.display = "none";
+    }
+    toggleCore = !toggleCore;
+};
+
+// Function conditioning
+function showHideCond() {
+    if (toggleCond === true) {
+        document.getElementById('burpees').style.display = "inline-block";
+        document.getElementById('ski-erg').style.display = "inline-block";
+        document.getElementById('battle-rope').style.display = "inline-block";
+        document.getElementById('m-climber').style.display = "inline-block";
+        document.getElementById('thruster').style.display = "inline-block";
+    } else {
+        document.getElementById('burpees').style.display = "none";
+        document.getElementById('ski-erg').style.display = "none";
+        document.getElementById('battle-rope').style.display = "none";
+        document.getElementById('m-climber').style.display = "none";
+        document.getElementById('thruster').style.display = "none";
+    }
+    toggleCond = !toggleCond;
 };

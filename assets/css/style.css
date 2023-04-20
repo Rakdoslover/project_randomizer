@@ -27,8 +27,14 @@ p {
     text-align: center;
 }
 
-/* Section holder for the exercise divs */
+/* Section holder for the exercise and button divs */
 .section-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.exercise-holder {
     display: inline-block;
 }
 
@@ -85,7 +91,7 @@ p {
     flex-direction: row;
 }
 
-/* ids for abs */
+/* ids for core */
 #toestobar {
     width: 300px;
     overflow: hidden;
@@ -93,6 +99,7 @@ p {
     margin: 4px;
     justify-content: space-evenly;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #plank-weighted {
@@ -102,6 +109,37 @@ p {
     margin: 4px;
     justify-content: space-evenly;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#cable-twist {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#hyperex {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#side-bend {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /* ids for press */
@@ -188,6 +226,52 @@ p {
 }
 
 #cable-y-raise {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+/* conditioning */
+#burpees {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#ski-erg {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#battle-rope {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#m-climber {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#thruster {
     width: 300px;
     overflow: hidden;
     display: none;

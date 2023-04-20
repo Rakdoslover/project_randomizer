@@ -31,9 +31,27 @@
             looking for.
         </p>
     </div>
+    <!--Buttons here-->
+    <div class="section-holder">
+        <div class="showhidebtn">Leg Exercises<br>
+            <button id="create-remove-legs" onclick="showHideLegs()">Show or Hide</button>
+        </div>
+        <div class="showhidebtn">Press Exercises<br>
+            <button id="create-remove-press" onclick="showHidePress()">Show or Hide</button>
+        </div>
+        <div class="showhidebtn">Pull Exercises<br>
+            <button id="create-remove-pull" onclick="showHidePull()">Show or Hide</button>
+        </div>
+        <div class="showhidebtn">Core Exercises<br>
+            <button id="create-remove-core" onclick="showHideCore()">Show or Hide</button>
+        </div>
+        <div class="showhidebtn">Conditioning Exercises<br>
+            <button id="create-remove-cond" onclick="showHideCond()">Show or Hide</button>
+        </div>
+    </div>
     <!--exercises below-->
     <!--legs-->
-    <div class="section-holder">
+    <div class="exercise-holder">
         <div id="squat" class="flex-div">
             <h2>Squat</h2>
             <img src="assets/images/full-squat-side-view.gif" alt="Squat movement" width="100%">
@@ -59,12 +77,10 @@
             <img src="assets/images/rear-lunge.gif" alt="Rear Lunge movement" width="100%">
             <p>Set: 3 Reps: 12 Rest: 1 min</p>
         </div>
-        <div class="showhidebtn">Leg Exercises<br>
-            <button id="create-remove-legs" onclick="showHideLegs()">Show or Hide</button>
-        </div>
+
     </div>
     <!--press-->
-    <div class="section-holder">
+    <div class="exercise-holder">
         <div id="bench-press" class="flex-div">
             <h2>Bench Press</h2>
             <img src="assets/images/barbell-bench-press.gif" alt="Bench press movement" width="100%">
@@ -90,12 +106,10 @@
             <img src="assets/images/lateral-raises-shoulder.gif" alt="Lateral Raises movement" width="100%">
             <p>Set: 3 Reps: 12 Rest: 1 min</p>
         </div>
-        <div class="showhidebtn">Press Exercises<br>
-            <button id="create-remove-press" onclick="showHidePress()">Show or Hide</button>
-        </div>
+
     </div>
     <!--pull-->
-    <div class="section-holder">
+    <div class="exercise-holder">
         <div id="chin-ups" class="flex-div">
             <h2>Chin -Ups</h2>
             <img src="assets/images/chin-ups.gif" alt="Chin-ups movement" width="100%">
@@ -121,10 +135,68 @@
             <img src="assets/images/cable-y-raise.gif" alt="Cable y-raise movement" width="100%">
             <p>Set: 3 Reps: 12 Rest: 1 min</p>
         </div>
-        <div class="showhidebtn">Pull Exercises<br>
-            <button id="create-remove-pull" onclick="showHidePull()">Show or Hide</button>
+        <!--Core-->
+        <div class="exercise-holder">
+            <div id="toestobar" class="flex-div">
+                <h2>Toes 2 Bar</h2>
+                <img src="assets/images/toes-to-bar.gif" alt="Toes to bar movement" width="100%">
+                <p>Set: 4 Reps: 10 Rest: 1 min</p>
+            </div>
+            <div id="plank-weighted" class="flex-div">
+                <h2>Weighted Plank</h2>
+                <img src="assets/images/weighted-plank.gif" alt="Weighted plank" width="100%">
+                <p>Set: 4 Reps: 1 min Rest: 1 min</p>
+            </div>
+            <div id="cable-twist" class="flex-div">
+                <h2>Standing Cable Twist</h2>
+                <img src="assets/images/standing-cable-twist.gif" alt="Cable twist movement" width="100%">
+                <p>Set: 3 Reps: 12 per side Rest: 1 min</p>
+            </div>
+            <div id="hyperex" class="flex-div">
+                <h2>Hyperextension</h2>
+                <img src="assets/images/hyperextension.gif" alt="Hyperextension movement" width="100%">
+                <p>Set: 3 Reps: 12 Rest: 1 min</p>
+            </div>
+            <div id="side-bend" class="flex-div">
+                <h2>Bench Side Bench</h2>
+                <img src="assets/images/bench-side-bend.gif" alt="Bench side bend movement" width="100%">
+                <p>Set: 4 Reps: 1 min Rest: 1 min</p>
+            </div>
+        </div>
+        <!--conditioning-->
+        <div class="exercise-holder">
+            <div id="burpees" class="flex-div">
+                <h2>Burpees</h2>
+                <img src="assets/images/burpees.gif" alt="Burpees movement" width="100%">
+                <p>Set: 4 Reps: 12 Rest: 20 sec</p>
+            </div>
+            <div id="ski-erg" class="flex-div">
+                <h2>Ski Ergometer</h2>
+                <img src="assets/images/ski-erg.gif" alt="Ski Ergometer movement" width="100%">
+                <p>Set: 4 Reps: 40 sec Rest: 20 sec</p>
+            </div>
+            <div id="battle-rope" class="flex-div">
+                <h2>Battle Ropes</h2>
+                <img src="assets/images/battle-rope.gif" alt="Battle Ropes movement" width="100%">
+                <p>Set: 4 Reps: 40 sec Rest: 20 sec</p>
+            </div>
+            <div id="m-climber" class="flex-div">
+                <h2>Mountain Climber</h2>
+                <img src="assets/images/mountain-climber.gif" alt="Mountain Climber movement" width="100%">
+                <p>Set: 4 Reps: 12 per leg Rest: 20 sec</p>
+            </div>
+            <div id="thruster" class="flex-div">
+                <h2>Barbell Thruster</h2>
+                <img src="assets/images/thruster.gif" alt="Barbell Thruster movement" width="100%">
+                <p>Set: 4 Reps: 12 Rest: 20 sec</p>
+            </div>
+            <div class="flex-div">
+                <p>Do all exercises 1 set each before starting over on the second set.</p>
+                <p>After one full round rest 1,5 min.</p>
+            </div>
         </div>
     </div>
+    <br>
     <!--Here's a footer-->
     <footer>
         <h3>Contact</h3>
