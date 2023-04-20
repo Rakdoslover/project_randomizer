@@ -99,7 +99,7 @@ p {
     margin: 4px;
     justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap: wrap;
+
 }
 
 #plank-weighted {
@@ -109,7 +109,7 @@ p {
     margin: 4px;
     justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap: wrap;
+
 }
 
 #cable-twist {
@@ -119,7 +119,7 @@ p {
     margin: 4px;
     justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap: wrap;
+
 }
 
 #hyperex {
@@ -129,7 +129,7 @@ p {
     margin: 4px;
     justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap: wrap;
+
 }
 
 #side-bend {
@@ -139,7 +139,7 @@ p {
     margin: 4px;
     justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap: wrap;
+    
 }
 
 /* ids for press */

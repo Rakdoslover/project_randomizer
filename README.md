@@ -14,6 +14,8 @@ The sites basics are getting into formation, i've decide put a a light grey back
 Rewrote most of the site and switched out the dropdown menu and now it looks something like this:
 ![screenshot of the new layout](assets/images/page-screen-2.jpg)
 
+
+
 ## Sources
 
 1. The GIFs that i didn't already own are marked with "Fitness-Programmer.com", they own the originals and you can find the images through this link "[https://fitnessprogramer.com/#]".
