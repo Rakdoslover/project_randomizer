@@ -1,14 +1,17 @@
-#My Randomizer
+# My Randomizer
 
-##Purpose of the site
+## Purpose of the site
 
 My mission here is to create a site with the purpose to generate a small session depending which muscle group the user chooses.
-The initial idea is to randomize 3 exercises (1 compound movement + 2 specific movements), this will then create the small training session for the user.
-The plan is to make a lot of divs connected to a specific class which on the index.html will be invisible only shown when called upon.
+The function the site revolves around is a toggle function the shows/hides the sessions, by default it's hidden.
+Each session gets 5 exercises (2 compound movements and 3 more specific exercises).
 
-##Screenshots of the process
+## Screenshots of the process
 
 The sites basics are getting into formation, i've decide put a a light grey background as the backdrop and I think i will implement some kind of set/rep/rest table to with the sessions.
 ![screenshot of the basic site](assets/images/screenshot-1.jpg)
 
-##
+Rewrote most of the site and switched out the dropdown menu and now it looks something like this:
+![screenshot of the new layout](assets/images/page-screen-2.jpg)
+
+## 
