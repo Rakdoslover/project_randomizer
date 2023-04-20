@@ -26,6 +26,7 @@ p {
     letter-spacing: 3px;
     text-align: center;
 }
+
 /* Section holder for the exercise divs */
 .section-holder {
     display: inline-block;
@@ -37,60 +38,96 @@ p {
     justify-content: space-evenly;
     flex-direction: row;
 }
+
 /* ids for legs */
 #squat {
-    height: 15%;
-    width: 15%;
+    width: 300px;
     overflow: hidden;
     display: none;
-    justify-content: space-around;
+    margin: 4px;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
-#deadlift{
-    height: 15%;
-    width: 15%;
+#calf-raise {
+    width: 300px;
     overflow: hidden;
     display: none;
-    justify-content: space-around;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#kb-swing {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#deadlift {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#rear-lunge {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
 /* ids for abs */
 #toestobar {
-    height: 15%;
-    width: 15%;
+    width: 300px;
     overflow: hidden;
     display: none;
-    justify-content: space-around;
+    margin: 4px;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
 #plank-weighted {
-    height: 15%;
-    width: 15%;
+    width: 300px;
     overflow: hidden;
     display: none;
-    justify-content: space-around;
+    margin: 4px;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
 /* ids for press */
 #bench-press {
-    height: 15%;
-    width: 15%;
+    width: 300px;
     overflow: hidden;
     display: none;
-    justify-content: space-around;
+    margin: 4px;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
 /* ids for pull */
+#chin-ups {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
 
 /* buttons */
-.createbtn {
+.showhidebtn {
     text-align: center;
-    width: 200px;
+    width: 300px;
     border: 1px solid gray;
     margin: 4px;
     padding: 6px;
@@ -99,17 +136,6 @@ p {
     justify-content: space-evenly;
 }
 
-.resetbtn{
-    text-align: center;
-    width: 200px;
-    border: 1px solid gray;
-    margin: 4px;
-    padding: 6px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-}
 
 /* footer */
 footer {
