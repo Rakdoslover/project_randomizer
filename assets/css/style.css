@@ -114,8 +114,80 @@ p {
     flex-direction: row;
 }
 
+#military-press {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#cable-crossover {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#triceps-dips {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#lateral-raises-shoulder {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
 /* ids for pull */
 #chin-ups {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#barbell-row {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#dumbbell-curl {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#incline-row {
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    margin: 4px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#cable-y-raise {
     width: 300px;
     overflow: hidden;
     display: none;

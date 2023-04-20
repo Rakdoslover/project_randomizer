@@ -5,8 +5,9 @@ let calfEX = document.getElementById("calf-raise");
 let kbswingEx = document.getElementById("kb-swing");
 let rlungeEx = document.getElementById("rear-lunge");
 let ttbEx = document.getElementById("toestobar");
-let benchPressEx = document.getElementById("bench-press");
 let plankEx = document.getElementById("plank-weighted");
+let benchPressEx = document.getElementById("bench-press");
+let mpressEx = document.getElementById("military-press");
 let chins = document.getElementById("chin-ups");
 
 /**
@@ -46,8 +47,16 @@ function showHideLegs() {
 function showHidePress() {
     if (togglePress === true) {
         document.getElementById('bench-press').style.display = "inline-block";
+        document.getElementById('military-press').style.display = "inline-block";
+        document.getElementById('cable-crossover').style.display = "inline-block";
+        document.getElementById('triceps-dips').style.display = "inline-block";
+        document.getElementById('lateral-raises-shoulder').style.display = "inline-block";
     } else {
         document.getElementById('bench-press').style.display = "none";
+        document.getElementById('military-press').style.display = "none";
+        document.getElementById('cable-crossover').style.display = "none";
+        document.getElementById('triceps-dips').style.display = "none";
+        document.getElementById('lateral-raises-shoulder').style.display = "none";
     }
     togglePress = !togglePress;
 };
@@ -56,8 +65,16 @@ function showHidePress() {
 function showHidePull() {
     if (togglePull === true) {
         document.getElementById('chin-ups').style.display = "inline-block";
+        document.getElementById('barbell-row').style.display = "inline-block";
+        document.getElementById('dumbbell-curl').style.display = "inline-block";
+        document.getElementById('incline-row').style.display = "inline-block";
+        document.getElementById('cable-y-raise').style.display = "inline-block";
     } else {
         document.getElementById('chin-ups').style.display = "none";
+        document.getElementById('barbell-row').style.display = "none";
+        document.getElementById('dumbbell-curl').style.display = "none";
+        document.getElementById('incline-row').style.display = "none";
+        document.getElementById('cable-y-raise').style.display = "none";
     }
     togglePull = !togglePull;
 };
