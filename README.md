@@ -1,4 +1,4 @@
-# My Randomizer
+# My Sessions
 
 ## Purpose of the site
 
