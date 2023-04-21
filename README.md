@@ -14,6 +14,15 @@ The sites basics are getting into formation, i've decide put a a light grey back
 Rewrote most of the site and switched out the dropdown menu and now it looks something like this:
 ![screenshot of the new layout](assets/images/page-screen-2.jpg)
 
+Basic layout of the site:
+![screenshot of basic layout](assets/images/basic-layout.jpg)
+
+Page when one of the buttons are pressed:
+![screenshot of pressed button](assets/images/pressed-button.jpg)
+
+The footer:
+![screenshot of the footer](assets/images/footer.jpg)
+
 
 
 ## Sources
