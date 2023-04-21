@@ -1,14 +1,3 @@
-// Targets the id:s for boxes
-let squatEx = document.getElementById("squat");
-let deadEx = document.getElementById("deadlift");
-let calfEX = document.getElementById("calf-raise");
-let kbswingEx = document.getElementById("kb-swing");
-let rlungeEx = document.getElementById("rear-lunge");
-let ttbEx = document.getElementById("toestobar");
-let plankEx = document.getElementById("plank-weighted");
-let benchPressEx = document.getElementById("bench-press");
-let mpressEx = document.getElementById("military-press");
-let chins = document.getElementById("chin-ups");
 
 /**
  * Here below we have the variables for the toggle functions further down.
