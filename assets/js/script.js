@@ -118,7 +118,7 @@ function showHideCond() {
         document.getElementById('battle-rope').style.display = "inline-block";
         document.getElementById('m-climber').style.display = "inline-block";
         document.getElementById('thruster').style.display = "inline-block";
-        document.getElementById('pone').style.display = "block";
+        document.getElementById('pone').style.display = "inline-block";
     } else {
         document.getElementById('cond-head').style.display = "none";
         document.getElementById('burpees').style.display = "none";

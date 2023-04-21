@@ -23,7 +23,21 @@ Page when one of the buttons are pressed:
 The footer:
 ![screenshot of the footer](assets/images/footer.jpg)
 
+## Testing
+- Home page
+    - Tested the logo to restart the home page.
+    - Tested the link to instagram, worked both in full screen and responsive mode.
+    - Tested the button in both fullscreen and responsive mode.
+    - Pictures flows fine 
+Tried the 
 
+## Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository associated with the project_randomizer, navigate to the Settings tab.
+    - From the branch section drop-down menu, select the Main Branch and press save.
+    - Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here: https://rakdoslover.github.io/project_randomizer/
 
 ## Sources
 
