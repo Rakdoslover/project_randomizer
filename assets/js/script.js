@@ -36,7 +36,7 @@ function showHideLegs() {
         document.getElementById('rear-lunge').style.display = "none";
     }
     toggleLegs = !toggleLegs;
-};
+}
 
 // Function press
 function showHidePress() {
@@ -56,7 +56,7 @@ function showHidePress() {
         document.getElementById('lateral-raises-shoulder').style.display = "none";
     }
     togglePress = !togglePress;
-};
+}
 
 // Function pull
 function showHidePull() {
@@ -76,7 +76,7 @@ function showHidePull() {
         document.getElementById('cable-y-raise').style.display = "none";
     }
     togglePull = !togglePull;
-};
+}
 
 // Function core
 function showHideCore() {
@@ -96,7 +96,7 @@ function showHideCore() {
         document.getElementById('side-bend').style.display = "none";
     }
     toggleCore = !toggleCore;
-};
+}
 
 // Function conditioning
 function showHideCond() {
@@ -118,4 +118,4 @@ function showHideCond() {
         document.getElementById('pone').style.display = "none";
     }
     toggleCond = !toggleCond;
-};
+}

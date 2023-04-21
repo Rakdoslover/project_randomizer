@@ -38,6 +38,8 @@ The footer:
     - no errors were found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frakdoslover.github.io%2Fproject_randomizer%2F) validator.
  - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frakdoslover.github.io%2Fproject_randomizer%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv) validator.
+ - JS
+    - Found some errors [JSHint](https://jshint.com/).
 
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
