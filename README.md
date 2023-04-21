@@ -35,9 +35,9 @@ The footer:
 
 ### Validator Testing
  - HTML
-    - no errors were found when passing through the official (https://validator.w3.org/nu/?doc=https%3A%2F%2Frakdoslover.github.io%2Fproject_randomizer%2F) validator.
+    - no errors were found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frakdoslover.github.io%2Fproject_randomizer%2F) validator.
  - CSS
-    - No errors were found when passing through the official (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frakdoslover.github.io%2Fproject_randomizer%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv) validator.
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frakdoslover.github.io%2Fproject_randomizer%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv) validator.
 
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -49,6 +49,7 @@ The live link can be found here: https://rakdoslover.github.io/project_randomize
 
 ## Sources
 
-1. The GIFs that i didn't already own are marked with "Fitness-Programmer.com", they own the originals and you can find the images through this link "[https://fitnessprogramer.com/#]".
-2. Found info on the toggle funtion through Stackoverflow and their "Ask section", "[https://stackoverflow.com/questions/]".
-3. Reused old code from former projects to create base structure and the idea of flex boxes, you can find most of the info i got here "[https://css-tricks.com/snippets/css/a-guide-to-flexbox/]".
+1. The GIFs that i didn't already own are marked with "Fitness-Programmer.com", they own the originals and you can find the images through this link [Fitness Programmer](https://fitnessprogramer.com/#).
+2. Found info on the toggle funtion through Stackoverflow and their "Ask section", [Stackoverflow](https://stackoverflow.com/questions/).
+3. Reused old code from former projects to create base structure and the idea of flex boxes, you can find most of the info i got here [CSS-TRICKS](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+4. I've also used the template made by CI published on Github as a layout, can be found here [GitHub](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode).
