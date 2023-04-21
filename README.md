@@ -28,8 +28,12 @@ The footer:
     - Tested the logo to restart the home page.
     - Tested the link to instagram, worked both in full screen and responsive mode.
     - Tested the button in both fullscreen and responsive mode.
-    - Pictures flows fine 
-Tried the 
+    - Pictures flows fine in smaller versions too, picture down below.
+![screenshot of smaller version](assets/images/small-version.jpg)
+
+### Validator Testing
+ - HTML
+    - 
 
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
