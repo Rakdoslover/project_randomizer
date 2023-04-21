@@ -405,3 +405,27 @@ footer h3 {
     padding: 5%;
     color: black;
 }
+
+/* media query */
+
+@media screen and (max-width: 800px){
+    h1, h2, h3 {
+    font-family: Poppins, sans-serif;
+    font-size: xx-large;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    }
+
+    body {
+        background: lightgrey;
+        font-family: Lato, sans-serif;
+        letter-spacing: 2px;
+    }
+
+    p {
+        letter-spacing: 2px;
+        text-align: center;
+    }
+}
